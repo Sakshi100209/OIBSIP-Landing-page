@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: url("bg.jpg");
+    height: 90vh;
+    width: auto;
+}
+ .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 15px;
+    height: 70px;
+    position: relative;
+}
+button{
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    align-items: flex-end;
+    border-color: white;
+    color:  white;
+    font-size: large;
+    font-weight: bold;
+    padding: auto;
+
+}
+span{
+    display: flex;
+    justify-content:space-around;
+
+}
+.button{
+    padding: 20px;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    text-align: center;
+    font-size: 28px;
+}
+.heading p{
+    font-size: 23px;
+   text-align: center;
+}
+.input{
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+hr{
+    border: 4px solid rgb(51, 48, 48);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+.tv{
+    position: relative;
+}
+.tv img{
+    width: 43vw;
+    z-index: 10;
+}
+.tv video{
+    height: 250;
+    width: auto;
+    position: absolute;
+    right: 93px;
+    top: 103px;
+    
+}
+.first div h1{
+    font-size: 48px;
+}
+.first div span{
+    font-size: 24px;
+}
+.faq h1{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.faqbox{
+    display: flex;
+    padding: 24px;
+    background-color: rgb(45, 45, 45);
+    max-width: 70vw;
+    margin: auto;
+    color:white;
+    cursor: pointer;
+    font-size: 25px;
+   justify-content: space-between;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.faqbox:hover{
+    background-color: grey;
+}
+.faqbox img{
+    background-color: rgb(45, 45, 45);
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.call{
+    padding-top: 40px;
+    color: rgb(187, 178, 178);
+    max-width:82vw;
+    margin: auto;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width:82vw;
+    margin: auto;
+    padding: 20px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.items a{
+    color: rgb(187, 178, 178);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+small{
+    color: rgb(187, 178, 178);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and ( max-width: 1535px){
+    body{
+        background-color: red;
+    }
+    .first{
+        flex-wrap: wrap;
+    }
+}
+    
